@@ -19,7 +19,7 @@ return new class extends Migration
             $table->integer('phoneNumber');
             $table->date('dateOfBirth');
             $table->string('password');
-            $table->boolean('role')->default(false);
+            $table->enum('role', ['Admin', 'User'])->default('User');
             $table->rememberToken();
             $table->timestamps();
         });

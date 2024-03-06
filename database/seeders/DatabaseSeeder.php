@@ -19,7 +19,8 @@ class DatabaseSeeder extends Seeder
         //     'email' => 'test@example.com',
         // ]);
         $this->call([
-            CategorySeeder::class
+            CategorySeeder::class,
+            AdminSeeder::class
         ]);
         \App\Models\Product::factory(5)->create();
    
