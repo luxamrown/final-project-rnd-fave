@@ -1,0 +1,130 @@
+* {
+    font-family: "Archivo", sans-serif;
+    color: #392A2A;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+body {
+
+    width: 100%;
+    background-color: #F9F1E9;
+
+}
+
+.Header {
+    font-size: 80px;
+    text-align: center;
+    font-family: "Noto Serif", serif;
+    font-weight: 300;
+}
+
+svg {
+    margin: auto;
+}
+
+.register-head {
+    display: grid;
+    justify-content: center;
+    margin: auto;
+}
+
+.register-page {
+    z-index: 10;
+    max-width: 620px;
+    max-height: 760px;
+    min-width: 300px;
+    min-height: 400px;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    margin-top: -410px;
+    font-weight: 500;
+}
+
+form {
+    display: grid;
+}
+
+.form-input {
+    margin: 30px;
+}
+
+.form-input input {
+    border-color: #000000;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    background-color: transparent;
+    width: 100%;
+    height: 40px;
+
+    vertical-align: bottom;
+    outline: none;
+}
+
+.submit-section {
+    display: grid;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+    gap: 10px;
+}
+
+.btn-input .box-input input:hover {
+    background: rgba(10, 10, 10, s 0.5);
+}
+
+.register-button {
+
+    min-width: 280px;
+    min-height: 50px;
+    padding: 0px 16px 0 16px;
+    background-color: #F9F1E9;
+    border: 2px solid #392A2A !important;
+    color: black;
+    border: 0;
+    border-radius: 8px;
+    font-weight: 400;
+    font-family: "Noto Serif", serif;
+    margin: auto;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.register-button:hover {
+    background: #392A2A;
+    color: white;
+}
+
+.togglePass {
+    top: 50%;
+    float: right;
+    transform: translateY(150%);
+    cursor: pointer;
+}
+
+p {
+    margin: auto;
+}
+
+.vct1{
+    position: absolute;
+    right: 0;
+    top: 110%;
+    max-width: 330px;
+}
+
+a {
+    color: #392A2A;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
