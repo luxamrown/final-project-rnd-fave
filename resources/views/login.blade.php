@@ -16,6 +16,7 @@
 </head>
 
 <body>
+    <!--Login Header-->
     <div class="login-page">
         <div class="login-head">
             <svg width="40" height="40" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -25,13 +26,17 @@
             </svg> <br>
             <label for="" class="Header">Login</label>
         </div>
+
         <br><br>
+
         <form action="">
+            <!--Input Email-->
             <div class="form-input">
                 <label for="email-input">Email</label>
                 <br>
                 <input type="text" name="" id="email-input">
             </div>
+            <!--Input Password-->
             <div class="form-input">
                 <label for="passwordInput">Password</label>
                 <br>

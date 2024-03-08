@@ -82,9 +82,9 @@ form{
     min-width: 280px;
     min-height: 50px;
     padding: 0px 16px 0 16px;
-    background-color: #392A2A;
-    color: #F9F1E9;
-    border: 0;
+    border: 2px solid #392A2A;
+    background-color: #F9F1E9;
+    color: #392A2A;
     border-radius: 8px;
     font-weight: 400;
     font-family: "Noto Serif", serif;
@@ -92,7 +92,11 @@ form{
     font-size: 20px;
     cursor: pointer;
 }
-
+.login-button:hover
+{
+    background-color: #392A2A;
+    color: #F9F1E9;
+}
 .togglePass{
     top: 50%;
     float: right;
@@ -104,6 +108,11 @@ p{
 }
 a{
     font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 
