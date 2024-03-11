@@ -29,12 +29,16 @@
 
         <br><br>
 
-        <form action="">
+        <form action="{{route('loginAction')}}" method="POST" enctype="multipart/form-data">
             <!--Input Email-->
+            @csrf
             <div class="form-input">
                 <label for="email-input">Email</label>
                 <br>
-                <input type="text" name="" id="email-input">
+                <input type="text" name="email" id="email-input">
+                @error('email')
+                    <div class="alert alert-danger" style="color: red" role="alert">{{$message}}</div>
+                @enderror
             </div>
             <!--Input Password-->
             <div class="form-input">
@@ -48,7 +52,12 @@
                             fill="black" />
                     </svg>
                 </div>
-                <input type="password" name="" id="passwordInput">
+                <input type="password" name="password" id="passwordInput">
+                @error('password')
+                    <div class="alert alert-danger" style="color: red" role="alert">{{$message}}</div>
+                @enderror
+
+                <div class="alert alert-danger" style="color: red" role="alert">{{$errors->password->first()}}</div>
             </div>
             <br><br><br>
             <div class="submit-section">
