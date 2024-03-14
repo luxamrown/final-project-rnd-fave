@@ -11,7 +11,7 @@ use App\Models\Product;
 class Controller extends BaseController
 {
     function readProduct(){
-        $home = Product::all();
+        $home = Product::paginate(4);
         return view('home', compact('home'));
     }
 

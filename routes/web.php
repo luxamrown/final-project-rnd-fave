@@ -14,7 +14,7 @@ use App\Http\Controllers\Controller;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
-Route::get('/read-product', [Controller::class, 'readProduct']);
+// Route::get('/', function () {
+    // return view('home');
+// });
+Route::get('/', [Controller::class, 'readProduct']);
