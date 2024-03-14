@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Product 
+{
+    background-color: #F9F1E9;
+    margin: 0;
+    padding: 0;
+}
+
+.OnSale_Container
+{
+    justify-content: center;
+    display: flex;
+    padding: 100px 0 0 0;
+}
+
+.SaleTitle
+{
+    font-family: "Noto Serif", serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 72px;
+    font-stretch: condensed;
+}
+
+.SaleImg
+{
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.Sale
+{
+    display: flex;
+}
+
+.OnSaleProduct
+{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.OnSaleProduct h2
+{
+    font-family: "Archivo", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 21.76px;
+    padding-top: 10px;
+}
+
+.SalePrice
+{
+    display: flex;
+    gap: 5px;
+    padding-top: 10px;
+}
+
+.PrevPrice
+{
+    text-decoration: line-through;
+    font-family: "Noto Serif", serif;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.DiscPrice
+{
+    font-family: "Noto Serif", serif;
+    font-size: 28px;
+    font-weight: 400;
+    color: #CC2A06;
+    ;
+}
+
+.OnSaleProduct img
+{
+    padding-top: 10px;
+}
+
+.New_Container
+{
+    justify-content: center;
+    display: flex;
+    padding: 100px 0 0 0;
+}
+
+.NewTitle
+{
+    display: flex;
+    font-family: "Noto Serif", serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 72px;
+    font-stretch: condensed;
+}
+
+.NewProduct
+{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.NewProduct h2
+{
+    font-family: "Archivo", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 21.76px;
+    padding-top: 10px;
+}
+
+.NewProduct h1
+{
+    font-family: "Noto Serif", serif;
+    font-size: 28px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.NewProduct img
+{
+    padding-top: 10px;
+}
+
+.Other_Container
+{
+    justify-content: center;
+    display: flex;
+    padding: 100px 0 0 0;
+}
+
+.OtherTitle
+{
+    display: flex;
+    font-family: "Noto Serif", serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 72px;
+    font-stretch: condensed;
+}
+
+.OtherProduct
+{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.OtherProduct h2
+{
+    font-family: "Archivo", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 21.76px;
+    padding-top: 10px;
+}
+
+.OtherProduct h1
+{
+    font-family: "Noto Serif", serif;
+    font-size: 28px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.OtherProduct img
+{
+    padding-top: 10px;
+}
+
+.arrow
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0 100px 0;
+}
+
+.Footer_Container
+{
+    background-color: #392A2A;
+    height: 704px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    gap: 40px;
+}
+
+.Footer
+{
+    max-width: 1759px;
+    max-height: 464px;
+    padding: 80px 0px 160px 0px;
+    gap: 40px;
+}
+
+.Footer_Logo
+{
+    max-height: 60px;
+    max-width: 60px;
+}
+
+.Footer_Content
+{
+    display: flex;
+    width: 100%;
+    color: #F9F1E9;
+    gap: 40px;
+    justify-content: space-around;
+}
+
+.Footer_Content a
+{
+    color: #F9F1E9;
+    font-family: "Archivo", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.Footer_Content h2
+{
+    font-family: "Noto Serif", serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 72px;
+    font-stretch: semi-condensed;
+}
+
+.Footer_Content h3
+{
+    font-family: "Archivo", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.Socials
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-auto-rows: auto; 
+    gap: 10px; 
+    border-radius: 100;
+}
+
+.Socials_Icon
+{
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+}
+
+.Socials_Icon a
+{
+    color: #F9F1E9;
+    font-size: 50px;
+}
+
+.FAVE_Container
+{
+    display: flex;
+    background-color: #FFD5A5;
+    height: 46px;
+    align-items: center;
+    justify-content: center;
+    font-family: "Archivo", sans-serif;
+}
+
+.FAVE_Container h1
+{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.FAVE_Container a
+{
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
+
+.FAVE 
+{
+    text-align: center;
+}
