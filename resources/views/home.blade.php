@@ -11,7 +11,53 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&family=Noto+Serif:ital,wdth,wght@0,62.5..100,100..900;1,62.5..100,100..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
+    <div class="upper">
+        <nav class="navbar">
+            <div>
+                <ul>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            
+            <img src="asset/catLogo.png" alt="Cat Logo" class="navLogo">
+            <div>
+                <ul>
+                <li><a href="/login">Login</a></li>
+                <li><a href="#">Wishlist(0)</a></li>
+                <li><a href="#">Cart(0)</a></li>
+                </ul>
+            </div>
+        </nav>
+        <img src="asset/bg.png" alt="bg" class="back">
+        <div class="container">
+            <div>
+                <p class="headline">
+                    Quality meets style 
+                </p>
+                <p class="headline">
+                    with feline finesse
+                </p> 
+            </div>
+
+        <p class="tagline">
+            Our Garments, Woven with Whiskered Precision and Hat-tastic Flair, Promise a Purmanence of Quality and Durability
+        </p> 
+  
+        <img src="asset/downArrow.png" alt="Down Arrow" class="ArrowD">
+      </div>
+      
+      <table border="2">
+        <tr>
+            <td colspan="4"> Men </td>
+            <td colspan="4"> Women </td>
+        </tr>
+      </table>
+    </div> 
     <section class="Product">
         <div class="OnSale_Container">
             <div class="OnSale">
@@ -41,7 +87,7 @@
                             <div style="margin:20px">
                                 <img src="{{ $x->productImage }}" alt="Picture" width="425px" height="550px">
                                 <h2>{{ $x->productName }}</h2>
-                                <div class="SalePrice"><h1 class="PrevPrice">Rp 1.399.000</h1><h1 class="DiscPrice">Rp {{ $x->productPrice }}</h1></div>
+                                <h1>Rp {{ $x->productPrice }}</h1>
                                 <a href=""><img src="{{ asset('/asset/Stripe.png') }}" alt=""></a>
                             </div>
                         @empty
@@ -61,7 +107,7 @@
                             <div style="margin:20px">
                                 <img src="{{ $x->productImage }}" alt="Picture" width="425px" height="550px">
                                 <h2>{{ $x->productName }}</h2>
-                                <div class="SalePrice"><h1 class="PrevPrice">Rp 1.399.000</h1><h1 class="DiscPrice">Rp {{ $x->productPrice }}</h1></div>
+                                <h1>Rp {{ $x->productPrice }}</h1>
                                 <a href=""><img src="{{ asset('/asset/Stripe.png') }}" alt=""></a>
                             </div>
                         @empty
